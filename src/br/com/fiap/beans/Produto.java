@@ -7,6 +7,20 @@ public class Produto {
     private int quantidade;
     private double valor;
 
+    //Contrutor Vazio
+    public Produto(){
+
+    }
+
+    //Contrutor Parametro Cheio
+    public Produto(int codigo, String tipo, String marca, int quantidade, double valor){
+        this.codigo = codigo;
+        this.tipo = tipo;
+        this.marca = marca;
+        this.quantidade = quantidade;
+        this.valor = valor;
+    }
+
     public int getCodigo() {
         return codigo;
     }

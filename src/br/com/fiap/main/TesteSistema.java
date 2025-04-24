@@ -20,13 +20,14 @@ public class TesteSistema {
         }
 
     public static void main(String[] args) {
-        Produto objProduto = new Produto();
+        Produto objProduto = new Produto(
+                inteiro("Informe o codigo:"),
+                texto("Tipo Produto"),
+                texto("Marca"),
+                inteiro("Quantidade"),
+                real("Valor")
+        );
 
-        objProduto.setCodigo(inteiro("Informe o codigo:"));
-        objProduto.setTipo(texto("Tipo Produto"));
-        objProduto.setMarca(texto("Marca"));
-        objProduto.setQuantidade(inteiro("Quantidade"));
-        objProduto.setValor(real("Valor"));
 
         System.out.println(objProduto);
     }

@@ -54,7 +54,7 @@ public class Produto {
                 "\nTipo: " + tipo +
                 "\nMarca: " + marca +
                 "\nQuantidade: " + quantidade +
-                "\nValor: " + valor +
+                "\nValor: " + valor;
 
     }
 }
